@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+*{
+    font-family: "Koulen",sans-serif;
+    padding: 0 auto;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+li a:hover{
+    font-size: 30px;
+    color: red;
+    transition: 0.2s;
+}
+
+nav {
+background-color: black;
+position: fixed;
+width: 100%;
+top: -100px;
+transition: 0.5s;
+}
+
+li {
+    float:right;
+    font-size: 1.5em;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 18px 30px;
+}
+
+
+.veangeance {
+    font-size: 1.9em;
+    float: left;
+}
+.veangeance a {
+    color: red;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    padding: 20px 0 0 110px;
+    text-decoration: underline;
+}
+span{
+    transition: 0.5s;
+}
+
+p{
+    font-family: sans-serif;
+}
+.paragraphe{
+    line-height: 33px;
+    padding-top: 50px;
+    width: 500px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.paragraphe2{
+    
+    line-height: 33px;
+    padding-top: 50px;
+    width: 1200px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.texte{
+   width: 700px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+img {
+    width: 720px;
+    height: 1000px;
+    transition: 0.5s;
+}
+
+.background1{
+    padding-top: 400px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(media/Unknown.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 10em;
+    color: white;
+    
+}
+
+.background2{
+    padding-top: 400px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(media/PosterSpy_com\ on\ Twitter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 10em;
+    color: white;
+}
+
+.background3{
+    padding-top: 400px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(media/Riddler\ The\ Batman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 10em;
+    color: white;
+}
+
+
+.bouton{
+    padding-left: 110px;
+    margin: 50px 0px;
+    
+}
+
+.button{
+    width: 120px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 50px;
+    background-color: black;
+    color: red;
+    font-size: 1.1em;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    border-radius: 1px;
+    background-color: red;
+    color: black;
+    transition: 0.4s;
+}
+
+
+.footer{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    
+}
+
+
+.pfooter{
+    font-size: 1em;
+    color: white;
+
+}
+
+iframe{
+    margin-top: 100px;
+    border: 1px solid red;
+    width: 1100px;
+    height: 600px;
+}
+
+
+.formu{
+    padding-top: 200px;
+    background-color: black;
+}
+form{
+    width: 700px;
+    height: 525px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.contact{
+    padding-top: 10px;
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid;
+}
+
+.button:nth-child(1){
+    transition: 0.3s ease-in-out;
+}
+
+
+textarea{
+    margin-top: 20px;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+ button{
+    margin-top: 20px;
+    width: 90px;
+    font-size: 17px;
+    background-color: black;
+    color: red;
+    border-radius: 50px;
+    border: 2px solid red;
+}
+
+ button:hover{
+    border-radius: 2px;
+    background-color: red;
+    color: black;
+    transition: 0.3s;
+}
+
+
+
+.contr{
+    font-size: 1.5em;
+    font-family: "Koulen", sans-serif;
+}
+
+.s1{
+    flex-wrap: wrap;
+}
+
+.flimg{
+    flex-direction: top;
+}
+
